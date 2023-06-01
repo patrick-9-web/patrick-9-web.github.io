@@ -1,29 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Reproducir video de YouTube</title>
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script>
-        var player;
-
-        function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-                height: '315',
-                width: '560',
-                videoId: 'DVjVebie_y1cHIfe',
-                playerVars: {
-                    'autoplay': 0,
-                    'controls': 1,
-                    'rel': 0
-                }
-            });
-        }
-    </script>
+    <title>Reproducir video de YouTube en la página</title>
 </head>
 <body>
-    <h1>Reproducir video de YouTube</h1>
+    <h1>Reproducir video de YouTube en la página</h1>
 
-    <div id="player"></div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RorL84NEj_U" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>
 
